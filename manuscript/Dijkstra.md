@@ -29,7 +29,7 @@ vertex 16? One way is to use [Dijkstra shortest path algorithm][dijkstra].
 
 Dijkstra shortest path algorithm has some great properties
 
-1. If there is a path is will find it.
+1. If there is a path it will find it.
 2. The path that is returned by the algorithm is the shortest.
 3. It is fairly efficient in finding the shortest path.
 
@@ -43,7 +43,7 @@ We will now proceed to describe the algorithm in pseudo code. The algorithm
 accepts as its arguments a graph `G`, a `start` vertex of the graph and a `finish`
 vertex. It will return a shortest path from `start` to `finish`.
 
-The algorithm maintains for each vertex of the graph a shortest path that from
+The algorithm maintains for each vertex of the graph a shortest path from
 `start` to the particular vertex. To start, we initialize every path as though
 it is unreachable, except for that `start` vertex.
 
