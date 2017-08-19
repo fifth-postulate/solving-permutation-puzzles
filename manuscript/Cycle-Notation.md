@@ -25,8 +25,8 @@ permuted to. In this case `1`, so we list it besides `0`. Next, we find out wher
 `1` is permuted, listing that besides `1`, i.e. `2`. Now `2` is permuted to `0`
 and the first cycle is closed. We continue with listing these numbers that are
 permuted in this fashion until all numbers are inspected. It is customary to
-leave out numbers that are not permuted. In our example we end up with the
-following cycle notation.
+leave out numbers that are not permuted. If every number remains fixed, we write
+`Id`. In our example we end up with the following cycle notation.
 
 ```plain
 (0 1 2)(3 4)
