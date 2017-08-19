@@ -41,7 +41,8 @@ closed-ness property of the collection of permutations.
 The closed-ness property comes with other nice properties.
 
 1. There is an **identity** element, i.e. an element that when multiplied with
-   an other permutation `p` results in that permutation `p`.
+   an other permutation `p` results in that permutation `p`. In this group the
+   identity element is `a`.
 2. For each permutation `p` there is an **inverse** element. I.e. an element
    that when multiplied with `p` results in the identity.
 
@@ -55,7 +56,7 @@ closer detail.
 
 ## Exercises
 
-1. Verify the properties for the group mention in this section?
+1. Verify the properties for the group mention in this section.
 2. Work out the multiplication table for the following collection of
    permutations `Id`, `(1 2 3 4)`, `(1 3)(2 4)`, `(1 4 3 2)`?
 3. What elements should be added to the following permutations to make it a
