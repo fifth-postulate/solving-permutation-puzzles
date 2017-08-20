@@ -1,7 +1,7 @@
 # There... 
 With a little more bookkeeping during the orbit algorithm we can keep track of
 some useful information. Most notably a standard permutation that brought the
-base to the are certain point in the orbit.
+base to the a certain point in the orbit.
 
 The only thing that needs to be changed is to keep track of the first known
 permutation that brings the base to the new number found to be in the orbit. We
@@ -15,7 +15,9 @@ Specifically augment the algorithm with the following steps
 ## ... and back again
 Why would we want to know about transversals?
 
-The reason that a standardized permutation for getting the base to an other number in the orbit is beneficial is because you can use it to simplify the group. Let me explain.
+The reason that a standardized permutation for getting the base to an other
+number in the orbit is beneficial is because you can use it to simplify the
+group. Let me explain. 
 
 Imagine you have a group that you know nothing about and you would like to know
 a bit better. Let's say that the number `0` is moved by some of the permutations
