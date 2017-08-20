@@ -23,7 +23,7 @@ we are interested in.
 4. Repeat as long as there are generators.
 
 Note that during step three, when you find a generator that is the identity
-permutaion is is not necessary to list is. This way the algorithm stops when the
+permutation it is not necessary to list it. This way the algorithm stops when the
 sequence of new generators is empty.
 
 ## Membership
